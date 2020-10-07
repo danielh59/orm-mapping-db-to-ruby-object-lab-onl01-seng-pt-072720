@@ -108,4 +108,8 @@ class Student
     x = self.first_X_students_in_grade_10(1)[0]
   end
 
+  def self.all_students_in_grade_9
+
+  end 
+
 end
