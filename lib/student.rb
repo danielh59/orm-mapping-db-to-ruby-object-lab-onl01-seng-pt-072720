@@ -85,7 +85,7 @@ class Student
       LIMIT ?
       SQL
 
-    DB[:conn].execute(sql[0])
+    DB[:conn].execute(sql)[0]
 
   end
 
