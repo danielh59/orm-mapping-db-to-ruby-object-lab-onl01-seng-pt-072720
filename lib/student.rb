@@ -108,7 +108,7 @@ class Student
     x = self.first_X_students_in_grade_10(1)
      x.map do |i|
        self.new_from_db(i)
-     end.first
+     end
   end
 
 end
