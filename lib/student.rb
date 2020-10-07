@@ -90,7 +90,7 @@ class Student
         self.new_from_db(row)
           x[0]
       end
-    
+
   end
 
   def save
